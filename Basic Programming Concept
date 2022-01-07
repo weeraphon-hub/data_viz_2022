@@ -6,7 +6,7 @@
       "name": "Untitled3.ipynb",
       "provenance": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyNmjAUPkHjTnyRrzWC8hBei",
+      "authorship_tag": "ABX9TyOTXcVifWjI1EPpxtfhI0Zc",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -74,9 +74,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "FuxV7IAtD02T",
-        "outputId": "7b1c84b7-38a2-4d53-d29b-cb4544ad41da"
+        "outputId": "873d9f69-9e53-479b-e725-30717f856115"
       },
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -97,9 +97,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lwE0P085D0zG",
-        "outputId": "3c068ff7-5268-4349-bd1d-a0e388755833"
+        "outputId": "abc56bd3-0f9a-4b55-c99f-e82b5ad69f3f"
       },
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -109,7 +109,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 6
+          "execution_count": 3
         }
       ]
     },
@@ -147,7 +147,7 @@
       "metadata": {
         "id": "T1SwjUsiDzow"
       },
-      "execution_count": null,
+      "execution_count": 4,
       "outputs": []
     },
     {
@@ -169,7 +169,7 @@
       "metadata": {
         "id": "JNws0MGlDzg7"
       },
-      "execution_count": null,
+      "execution_count": 5,
       "outputs": []
     },
     {
@@ -184,9 +184,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mLHwTEGiDzd7",
-        "outputId": "6ce7c021-99f1-4c03-faa2-19557499f6e8"
+        "outputId": "713d07cd-d040-45ab-c078-ec3d434997ec"
       },
-      "execution_count": null,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -217,16 +217,16 @@
           "height": 130
         },
         "id": "rm0nhmHeDzaj",
-        "outputId": "ccf2c993-67e2-4bb4-e4c1-adae93fff55a"
+        "outputId": "c4cd553a-a17e-4442-e6c3-979de76e95b1"
       },
-      "execution_count": null,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "error",
           "ename": "SyntaxError",
           "evalue": "ignored",
           "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-07a0750214a8>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def function_a():\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-10-07a0750214a8>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def function_a():\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
           ]
         }
       ]
@@ -249,7 +249,7 @@
       "metadata": {
         "id": "ik5FyttBDzXy"
       },
-      "execution_count": null,
+      "execution_count": 11,
       "outputs": []
     },
     {
@@ -262,9 +262,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1PjEoA-uDzU_",
-        "outputId": "4ddddb19-dc2b-4992-a3cd-31c290ea720d"
+        "outputId": "828f95f6-d6b9-4ad3-d8d1-dc5ecd1b58fd"
       },
-      "execution_count": null,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -285,9 +285,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "sLMZG-KQKcHU",
-        "outputId": "987fe425-20b1-401a-ed92-d87cbf3ae36e"
+        "outputId": "ff648ea8-d06e-4cf9-ec0d-875a88da74af"
       },
-      "execution_count": null,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "stream",
@@ -306,7 +306,7 @@
       "metadata": {
         "id": "3zKkSXWFKghw"
       },
-      "execution_count": null,
+      "execution_count": 14,
       "outputs": []
     },
     {
@@ -320,9 +320,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "XrZeH87fO1i_",
-        "outputId": "7ed6851c-5675-42d3-dc87-d64903070d6a"
+        "outputId": "1acb3321-111c-4cb1-f00c-7f6cb220ee29"
       },
-      "execution_count": null,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "stream",
@@ -345,9 +345,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "iLNEG71ZO1gK",
-        "outputId": "8eb935a0-4dbc-406e-e7df-afa319d1053e"
+        "outputId": "e4d020d6-66a5-4b5b-eee2-b76bfd9ac2dd"
       },
-      "execution_count": null,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "stream",
@@ -368,9 +368,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "P7S7sAA9PXyN",
-        "outputId": "ccf7c554-3fd8-45e4-ff41-c43f4dd54c29"
+        "outputId": "852182c2-daf1-46e3-9e2e-e817bae83112"
       },
-      "execution_count": null,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -391,9 +391,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "V3n3VuB_O1da",
-        "outputId": "0f783ee9-2ac5-4a6c-fdb1-938d9e8f263a"
+        "outputId": "317266b7-b3c0-4b87-f106-26aed6820289"
       },
-      "execution_count": null,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "stream",
@@ -432,7 +432,7 @@
       "metadata": {
         "id": "ygU4MSqbO1aU"
       },
-      "execution_count": null,
+      "execution_count": 19,
       "outputs": []
     },
     {
@@ -445,9 +445,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "JlcXZyMvRVQs",
-        "outputId": "9bde65db-5ffd-4a98-bce7-4e458cb988a6"
+        "outputId": "01d0a88a-2bd1-4254-d85a-3db0a57cc1a5"
       },
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -469,9 +469,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mhpcGajzRrqT",
-        "outputId": "f3c0c863-45c9-452a-85ac-3363110b9a35"
+        "outputId": "9caab433-cb81-44bd-8815-d61114de8dfb"
       },
-      "execution_count": null,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -493,9 +493,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "u3QHMqUaRw3U",
-        "outputId": "99e344e8-7342-4387-dafb-a88277fb0b52"
+        "outputId": "24cfd674-1e2d-4ac8-e338-b8ab5fdb603f"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -515,6 +515,215 @@
       "metadata": {
         "id": "uvA7dX8xDeNB"
       }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "for menber in listEX:\n",
+        "\n",
+        "    do_someting()"
+      ],
+      "metadata": {
+        "id": "-a4o-Ck4ThZ6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for member in [1,2,3,4,5,6]:\n",
+        "    print(member)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lViwthshUSCj",
+        "outputId": "b6b3190a-8c76-447f-daa6-f45dbba8506d"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def print_name(name):\n",
+        "    print(f'ฉันชื่อ {name}')"
+      ],
+      "metadata": {
+        "id": "ubQI5Jz2VCCn"
+      },
+      "execution_count": 25,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for name in ['วัชรา','จุทา','ญาดา','กิตตา']:\n",
+        "    N=name\n",
+        "    print_name(N)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yPYlfk_UVB85",
+        "outputId": "e4cf1410-3791-4e25-914f-1c58f3e55556"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ฉันชื่อ วัชรา\n",
+            "ฉันชื่อ จุทา\n",
+            "ฉันชื่อ ญาดา\n",
+            "ฉันชื่อ กิตติคุณ\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_name_id_grade = [['นาง1','6254954964','A'],['นาง2','634856464','B']]"
+      ],
+      "metadata": {
+        "id": "m4RM6LVPVB4L"
+      },
+      "execution_count": 29,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for each in list_name_id_grade:\n",
+        "  name = each[0]\n",
+        "  id = each[1]\n",
+        "  grade = each[2]\n",
+        "  print_grade(name,id,grade)\n",
+        "  print('-----------------------')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i4ckdPQiVBqb",
+        "outputId": "b0282b50-0fdf-41f2-8d26-887a8f2467fe"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "รหัสประจำตัว 6254954964 ชื่อ นาง1\n",
+            "ได้เกรด A\n",
+            "-----------------------\n",
+            "รหัสประจำตัว 634856464 ชื่อ นาง2\n",
+            "ได้เกรด B\n",
+            "-----------------------\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## ใช้ for loop เพิ่มสมาชิกใน list"
+      ],
+      "metadata": {
+        "id": "n-vnLgzMYVfS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_name = []\n",
+        "list_id = []\n",
+        "list_grade = []\n",
+        "for each in list_name_id_grade:\n",
+        "  list_name.append(each[0])\n",
+        "  list_id.append(each[1])\n",
+        "  list_grade.append(each[2])"
+      ],
+      "metadata": {
+        "id": "ZvPlyoAHVBmS"
+      },
+      "execution_count": 31,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "list_name"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0YQP93U-ZGNE",
+        "outputId": "b8dc24f8-3d48-49ba-b69b-45e33a9d1bbd"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['นาง1', 'นาง2']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 34
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "CWkLmRAjZGIy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "LWNafCEAZGEe"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "7njmlt0zZF-p"
+      },
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
