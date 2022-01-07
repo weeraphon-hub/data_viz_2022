@@ -6,7 +6,7 @@
       "name": "Untitled3.ipynb",
       "provenance": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyOTXcVifWjI1EPpxtfhI0Zc",
+      "authorship_tag": "ABX9TyN89U/MlVKapjtCYJKgSkM6",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -693,26 +693,114 @@
       ]
     },
     {
-      "cell_type": "code",
+      "cell_type": "markdown",
       "source": [
-        ""
+        "### การวนด้วย rane()"
       ],
       "metadata": {
-        "id": "CWkLmRAjZGIy"
-      },
-      "execution_count": null,
-      "outputs": []
+        "id": "1k1MmVr-boJF"
+      }
     },
     {
       "cell_type": "code",
       "source": [
-        ""
+        "for i in range(100):\n",
+        "  print('you',end = ' ')"
       ],
       "metadata": {
-        "id": "LWNafCEAZGEe"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CWkLmRAjZGIy",
+        "outputId": "06958e8c-1ed9-42bb-d97b-36695ae2f4f9"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you you "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Loop ซ้อน loop"
+      ],
+      "metadata": {
+        "id": "1_H5kKbAdB-e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for mem1 in range(2,5):\n",
+        "  print(f'noe mem1 = {mem1}')\n",
+        "  for mem2 in range(1,13):\n",
+        "      print(f'{mem1} X {mem2} = {mem1*mem2}')\n",
+        "  print('end inner for mem1 = {mem1}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LWNafCEAZGEe",
+        "outputId": "0e177c93-43f9-402f-d60c-262f72a10870"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "noe mem1 = 2\n",
+            "2 X 1 = 2\n",
+            "2 X 2 = 4\n",
+            "2 X 3 = 6\n",
+            "2 X 4 = 8\n",
+            "2 X 5 = 10\n",
+            "2 X 6 = 12\n",
+            "2 X 7 = 14\n",
+            "2 X 8 = 16\n",
+            "2 X 9 = 18\n",
+            "2 X 10 = 20\n",
+            "2 X 11 = 22\n",
+            "2 X 12 = 24\n",
+            "end inner for mem1 = {mem1}\n",
+            "noe mem1 = 3\n",
+            "3 X 1 = 3\n",
+            "3 X 2 = 6\n",
+            "3 X 3 = 9\n",
+            "3 X 4 = 12\n",
+            "3 X 5 = 15\n",
+            "3 X 6 = 18\n",
+            "3 X 7 = 21\n",
+            "3 X 8 = 24\n",
+            "3 X 9 = 27\n",
+            "3 X 10 = 30\n",
+            "3 X 11 = 33\n",
+            "3 X 12 = 36\n",
+            "end inner for mem1 = {mem1}\n",
+            "noe mem1 = 4\n",
+            "4 X 1 = 4\n",
+            "4 X 2 = 8\n",
+            "4 X 3 = 12\n",
+            "4 X 4 = 16\n",
+            "4 X 5 = 20\n",
+            "4 X 6 = 24\n",
+            "4 X 7 = 28\n",
+            "4 X 8 = 32\n",
+            "4 X 9 = 36\n",
+            "4 X 10 = 40\n",
+            "4 X 11 = 44\n",
+            "4 X 12 = 48\n",
+            "end inner for mem1 = {mem1}\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -721,6 +809,39 @@
       ],
       "metadata": {
         "id": "7njmlt0zZF-p"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "Pk8q8tFZcRM1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "uCoKOFWAcREk"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "R6Ur2Y0HcRAu"
       },
       "execution_count": null,
       "outputs": []
