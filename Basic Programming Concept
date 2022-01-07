@@ -6,7 +6,7 @@
       "name": "Untitled3.ipynb",
       "provenance": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyN89U/MlVKapjtCYJKgSkM6",
+      "authorship_tag": "ABX9TyM0QiFoiXYrOfUX9Qw9XCmz",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -695,7 +695,12 @@
     {
       "cell_type": "markdown",
       "source": [
-        "### การวนด้วย rane()"
+        "### การวนด้วย range()\n",
+        "\n",
+        "```\n",
+        "# มีการจัดรูปแบบเป็นโค้ด\n",
+        "```\n",
+        "\n"
       ],
       "metadata": {
         "id": "1k1MmVr-boJF"
@@ -803,48 +808,50 @@
       ]
     },
     {
+      "cell_type": "markdown",
+      "source": [
+        "### Loop in Function"
+      ],
+      "metadata": {
+        "id": "8mfYswLqf-pB"
+      }
+    },
+    {
       "cell_type": "code",
       "source": [
-        ""
+        "def print_grade_loop(names,grades):\n",
+        "  for n,g in zip(names,grades):\n",
+        "    print(f'{n} ได้เกรด {g}')"
       ],
       "metadata": {
         "id": "7njmlt0zZF-p"
       },
-      "execution_count": null,
+      "execution_count": 41,
       "outputs": []
     },
     {
       "cell_type": "code",
       "source": [
-        ""
+        "print_grade_loop(list_name,list_grade)"
       ],
       "metadata": {
-        "id": "Pk8q8tFZcRM1"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Pk8q8tFZcRM1",
+        "outputId": "e7dcdec6-56b0-40d1-8c47-c7212a265abb"
       },
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        ""
-      ],
-      "metadata": {
-        "id": "uCoKOFWAcREk"
-      },
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        ""
-      ],
-      "metadata": {
-        "id": "R6Ur2Y0HcRAu"
-      },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "นาง1 ได้เกรด A\n",
+            "นาง2 ได้เกรด B\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -857,14 +864,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
-      "metadata": {
-        "id": "gdx9D1eADPXK"
-      },
-      "outputs": [],
       "source": [
-        ""
-      ]
+        "if condi"
+      ],
+      "metadata": {
+        "id": "5iqbu_w_haZZ"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
