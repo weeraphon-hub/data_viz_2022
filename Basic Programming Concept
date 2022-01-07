@@ -1,0 +1,540 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNmjAUPkHjTnyRrzWC8hBei",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/weeraphon-hub/data_viz_2022/blob/main/Basic%20Programming%20Concept\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Functions ($f(x) = y$)"
+      ],
+      "metadata": {
+        "id": "ndEUxng4DYIK"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "```python\n",
+        "def function_name(input_x):\n",
+        "    # do something with input_x to get output_y\n",
+        "    return output_y\n",
+        "```"
+      ],
+      "metadata": {
+        "id": "_mdeQu1_ED6H"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "$f_1(x)=x^2 + 75$"
+      ],
+      "metadata": {
+        "id": "MO3KLkCLFvns"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def function_f1(x):\n",
+        "    a = x**2\n",
+        "    y = a + 75\n",
+        "    return y\n",
+        "\n",
+        "print('done!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FuxV7IAtD02T",
+        "outputId": "7b1c84b7-38a2-4d53-d29b-cb4544ad41da"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "done!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "function_f1(3)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lwE0P085D0zG",
+        "outputId": "3c068ff7-5268-4349-bd1d-a0e388755833"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "84"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "function มีส่วนสำคัญทั้งหมด 4 ส่วน\n",
+        "\n",
+        "1. บอก python ว่าเราจะเขียนฟังก์ชั่น ชื่ออะไร  `def function_name()`: (ขาดไม่ได้)\n",
+        "2. กำหนดตัวแปรที่จะเป็น input  _Input_ (ขาดได้)\n",
+        "3. ส่วนประมวลผล do_something with _Input_ to get _Output_ (ขาดไม่ได้)\n",
+        "4. ส่วน output `return` _Output_(ขาดได้)"
+      ],
+      "metadata": {
+        "id": "5VC3up0SHLU2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### ตัวอย่าง function ที่มีส่วนประกอบครบ\n"
+      ],
+      "metadata": {
+        "id": "3f5MrI9RH3-t"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def function_f1(x):\n",
+        "    a = x**2\n",
+        "    y = a + 75\n",
+        "    return y"
+      ],
+      "metadata": {
+        "id": "T1SwjUsiDzow"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### ตัวอย่าง function ที่ ไม่มี input"
+      ],
+      "metadata": {
+        "id": "QewiXPJZICyV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def pi_v():\n",
+        "    y = 3.14159265359\n",
+        "    return y"
+      ],
+      "metadata": {
+        "id": "JNws0MGlDzg7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "piv = pi_v()\n",
+        "circle_area_r2 = piv*(2**2)\n",
+        "print(circle_area_r2) "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mLHwTEGiDzd7",
+        "outputId": "6ce7c021-99f1-4c03-faa2-19557499f6e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12.56637061436\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Function ไม่มี process ไม่ได้"
+      ],
+      "metadata": {
+        "id": "FYsIsEDpJKZb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def function_a():"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "rm0nhmHeDzaj",
+        "outputId": "ccf2c993-67e2-4bb4-e4c1-adae93fff55a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-07a0750214a8>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def function_a():\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ตัวอย่าง Function ที่ไม่มี output"
+      ],
+      "metadata": {
+        "id": "ShvGkn6CJWXF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def print_name_id(name,id):\n",
+        "    print(f'ชื่อ {name} รหัสประจำตัว {id}')"
+      ],
+      "metadata": {
+        "id": "ik5FyttBDzXy"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print_name_id('วีระพล','623021007-7')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1PjEoA-uDzU_",
+        "outputId": "4ddddb19-dc2b-4992-a3cd-31c290ea720d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ชื่อ วีระพล รหัสประจำตัว 623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = print_name_id('วีระพล','623021007-7')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sLMZG-KQKcHU",
+        "outputId": "987fe425-20b1-401a-ed92-d87cbf3ae36e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ชื่อ วีระพล รหัสประจำตัว 623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a"
+      ],
+      "metadata": {
+        "id": "3zKkSXWFKghw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('วีระพล')\n",
+        "print('623021007-7')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XrZeH87fO1i_",
+        "outputId": "7ed6851c-5675-42d3-dc87-d64903070d6a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "วีระพล\n",
+            "623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('วีระพล',end='->')\n",
+        "print('623021007-7')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iLNEG71ZO1gK",
+        "outputId": "8eb935a0-4dbc-406e-e7df-afa319d1053e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "วีระพล->623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('วีระพล','623021007-7')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P7S7sAA9PXyN",
+        "outputId": "ccf7c554-3fd8-45e4-ff41-c43f4dd54c29"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "วีระพล 623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('วีระพล','623021007-7',sep=' & ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V3n3VuB_O1da",
+        "outputId": "0f783ee9-2ac5-4a6c-fdb1-938d9e8f263a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "วีระพล & 623021007-7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## input ของ function แบ่งเป็น 2 ชนิด (จำเป็นต้องใส่ กับ ไม่จำเป็นต้องใส่)"
+      ],
+      "metadata": {
+        "id": "bE4Bcw47P_le"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "ตัวอย่าง function `print_grade()` มี input 3 ตัว จำเป็นต้องใส่ 2 ตัว คือ name กับ id และไม่จำเป็นต้องใส่ 1 ตัว คือเกรด ซึ่งมีค่า default เป็น F"
+      ],
+      "metadata": {
+        "id": "1Mk9rBROQ-6e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def print_grade(name,id,grade = 'F'):\n",
+        "    print(f'รหัสประจำตัว {id} ชื่อ {name}')\n",
+        "    print(f'ได้เกรด {grade}')"
+      ],
+      "metadata": {
+        "id": "ygU4MSqbO1aU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print_grade('นายสิทธัตกะ จรัสแสง','623020541-2')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JlcXZyMvRVQs",
+        "outputId": "9bde65db-5ffd-4a98-bce7-4e458cb988a6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "รหัสประจำตัว 623020541-2 ชื่อ นายสิทธัตกะ จรัสแสง\n",
+            "ได้เกรด F\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print_grade('นายวีระพล','623021007-7','A')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mhpcGajzRrqT",
+        "outputId": "f3c0c863-45c9-452a-85ac-3363110b9a35"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "รหัสประจำตัว 623021007-7 ชื่อ นายวีระพล\n",
+            "ได้เกรด A\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print_grade(id='623020541-2',name='นายสิทธัตกะ จรัสแสง',grade='B+')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u3QHMqUaRw3U",
+        "outputId": "99e344e8-7342-4387-dafb-a88277fb0b52"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "รหัสประจำตัว 623020541-2 ชื่อ นายสิทธัตกะ จรัสแสง\n",
+            "ได้เกรด B+\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Looping (for)"
+      ],
+      "metadata": {
+        "id": "uvA7dX8xDeNB"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Conditional Statement (if)"
+      ],
+      "metadata": {
+        "id": "AdMUneO0Di6B"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gdx9D1eADPXK"
+      },
+      "outputs": [],
+      "source": [
+        ""
+      ]
+    }
+  ]
+}
