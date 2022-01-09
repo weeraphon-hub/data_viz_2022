@@ -6,7 +6,7 @@
       "name": "Untitled3.ipynb",
       "provenance": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyM0QiFoiXYrOfUX9Qw9XCmz",
+      "authorship_tag": "ABX9TyMAx4/5XaWnXQzwtLKNwDFP",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -74,9 +74,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "FuxV7IAtD02T",
-        "outputId": "873d9f69-9e53-479b-e725-30717f856115"
+        "outputId": "6f1c6284-c5eb-46ba-876a-d269f7f017d5"
       },
-      "execution_count": 2,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
@@ -97,9 +97,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lwE0P085D0zG",
-        "outputId": "abc56bd3-0f9a-4b55-c99f-e82b5ad69f3f"
+        "outputId": "d9ed8027-7083-444a-fa82-31d6e90f7478"
       },
-      "execution_count": 3,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -109,7 +109,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 3
+          "execution_count": 5
         }
       ]
     },
@@ -147,7 +147,7 @@
       "metadata": {
         "id": "T1SwjUsiDzow"
       },
-      "execution_count": 4,
+      "execution_count": 6,
       "outputs": []
     },
     {
@@ -169,7 +169,7 @@
       "metadata": {
         "id": "JNws0MGlDzg7"
       },
-      "execution_count": 5,
+      "execution_count": 7,
       "outputs": []
     },
     {
@@ -184,9 +184,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mLHwTEGiDzd7",
-        "outputId": "713d07cd-d040-45ab-c078-ec3d434997ec"
+        "outputId": "cc8aecdf-846f-4937-a37f-9b204731b546"
       },
-      "execution_count": 9,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
@@ -217,16 +217,16 @@
           "height": 130
         },
         "id": "rm0nhmHeDzaj",
-        "outputId": "c4cd553a-a17e-4442-e6c3-979de76e95b1"
+        "outputId": "d4c02e00-8a6e-4015-bcef-af72f4ba80ef"
       },
-      "execution_count": 10,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "error",
           "ename": "SyntaxError",
           "evalue": "ignored",
           "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-10-07a0750214a8>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def function_a():\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-9-07a0750214a8>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def function_a():\u001b[0m\n\u001b[0m                     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unexpected EOF while parsing\n"
           ]
         }
       ]
@@ -249,7 +249,7 @@
       "metadata": {
         "id": "ik5FyttBDzXy"
       },
-      "execution_count": 11,
+      "execution_count": 10,
       "outputs": []
     },
     {
@@ -262,9 +262,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1PjEoA-uDzU_",
-        "outputId": "828f95f6-d6b9-4ad3-d8d1-dc5ecd1b58fd"
+        "outputId": "2bd2df64-bf85-4bc0-8147-657da075087b"
       },
-      "execution_count": 12,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "stream",
@@ -285,9 +285,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "sLMZG-KQKcHU",
-        "outputId": "ff648ea8-d06e-4cf9-ec0d-875a88da74af"
+        "outputId": "0056f739-4d99-41a9-fb60-0d418914a8c6"
       },
-      "execution_count": 13,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -306,7 +306,7 @@
       "metadata": {
         "id": "3zKkSXWFKghw"
       },
-      "execution_count": 14,
+      "execution_count": 13,
       "outputs": []
     },
     {
@@ -320,9 +320,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "XrZeH87fO1i_",
-        "outputId": "1acb3321-111c-4cb1-f00c-7f6cb220ee29"
+        "outputId": "459ca650-a15b-4311-93c4-7c25d12f8eb4"
       },
-      "execution_count": 15,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "stream",
@@ -345,9 +345,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "iLNEG71ZO1gK",
-        "outputId": "e4d020d6-66a5-4b5b-eee2-b76bfd9ac2dd"
+        "outputId": "3365609c-59c0-4879-c2ff-6b47c27ac7c3"
       },
-      "execution_count": 16,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "stream",
@@ -368,9 +368,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "P7S7sAA9PXyN",
-        "outputId": "852182c2-daf1-46e3-9e2e-e817bae83112"
+        "outputId": "f1fb1f36-17d4-4d93-d16a-e8e7c2ec51c9"
       },
-      "execution_count": 17,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "stream",
@@ -391,9 +391,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "V3n3VuB_O1da",
-        "outputId": "317266b7-b3c0-4b87-f106-26aed6820289"
+        "outputId": "6a55346b-54cf-4617-a609-48efb49d143b"
       },
-      "execution_count": 18,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -432,7 +432,7 @@
       "metadata": {
         "id": "ygU4MSqbO1aU"
       },
-      "execution_count": 19,
+      "execution_count": 18,
       "outputs": []
     },
     {
@@ -445,9 +445,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "JlcXZyMvRVQs",
-        "outputId": "01d0a88a-2bd1-4254-d85a-3db0a57cc1a5"
+        "outputId": "83ceb95d-c261-4786-966e-354c07d43de3"
       },
-      "execution_count": 20,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "stream",
@@ -469,9 +469,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mhpcGajzRrqT",
-        "outputId": "9caab433-cb81-44bd-8815-d61114de8dfb"
+        "outputId": "2b228d62-0730-405c-abf1-3290bdc82af3"
       },
-      "execution_count": 21,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -493,9 +493,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "u3QHMqUaRw3U",
-        "outputId": "24cfd674-1e2d-4ac8-e338-b8ab5fdb603f"
+        "outputId": "007db09b-c13a-48ab-e3cc-e19228db5c38"
       },
-      "execution_count": 22,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -538,9 +538,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lViwthshUSCj",
-        "outputId": "b6b3190a-8c76-447f-daa6-f45dbba8506d"
+        "outputId": "90e9d4dd-5829-46bd-f1b8-42be8b2555a5"
       },
-      "execution_count": 24,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -565,7 +565,7 @@
       "metadata": {
         "id": "ubQI5Jz2VCCn"
       },
-      "execution_count": 25,
+      "execution_count": 23,
       "outputs": []
     },
     {
@@ -580,9 +580,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "yPYlfk_UVB85",
-        "outputId": "e4cf1410-3791-4e25-914f-1c58f3e55556"
+        "outputId": "e0924beb-48b8-43c0-a99d-0b081cb43d95"
       },
-      "execution_count": 27,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -591,7 +591,7 @@
             "ฉันชื่อ วัชรา\n",
             "ฉันชื่อ จุทา\n",
             "ฉันชื่อ ญาดา\n",
-            "ฉันชื่อ กิตติคุณ\n"
+            "ฉันชื่อ กิตตา\n"
           ]
         }
       ]
@@ -604,7 +604,7 @@
       "metadata": {
         "id": "m4RM6LVPVB4L"
       },
-      "execution_count": 29,
+      "execution_count": 25,
       "outputs": []
     },
     {
@@ -622,9 +622,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "i4ckdPQiVBqb",
-        "outputId": "b0282b50-0fdf-41f2-8d26-887a8f2467fe"
+        "outputId": "65f79472-6cc0-46a8-e61d-0d8fe85f631d"
       },
-      "execution_count": 30,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
@@ -663,7 +663,7 @@
       "metadata": {
         "id": "ZvPlyoAHVBmS"
       },
-      "execution_count": 31,
+      "execution_count": 27,
       "outputs": []
     },
     {
@@ -676,9 +676,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0YQP93U-ZGNE",
-        "outputId": "b8dc24f8-3d48-49ba-b69b-45e33a9d1bbd"
+        "outputId": "a0541285-1b93-445c-b599-733f74a058a0"
       },
-      "execution_count": 34,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -688,7 +688,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 34
+          "execution_count": 28
         }
       ]
     },
@@ -717,9 +717,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "CWkLmRAjZGIy",
-        "outputId": "06958e8c-1ed9-42bb-d97b-36695ae2f4f9"
+        "outputId": "bafec346-3d21-4ddd-ca07-0185c0aaa8d4"
       },
-      "execution_count": 37,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -753,9 +753,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "LWNafCEAZGEe",
-        "outputId": "0e177c93-43f9-402f-d60c-262f72a10870"
+        "outputId": "88335607-0794-4f51-be79-2c5c42c50118"
       },
-      "execution_count": 38,
+      "execution_count": 30,
       "outputs": [
         {
           "output_type": "stream",
@@ -826,7 +826,7 @@
       "metadata": {
         "id": "7njmlt0zZF-p"
       },
-      "execution_count": 41,
+      "execution_count": 31,
       "outputs": []
     },
     {
@@ -839,9 +839,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Pk8q8tFZcRM1",
-        "outputId": "e7dcdec6-56b0-40d1-8c47-c7212a265abb"
+        "outputId": "9d81846d-df90-4b04-fe72-384ab5a1ac5f"
       },
-      "execution_count": 42,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -863,14 +863,289 @@
       }
     },
     {
-      "cell_type": "code",
+      "cell_type": "markdown",
       "source": [
-        "if condi"
+        "```python\n",
+        "if condition1:\n",
+        "    do_something() ## ถ้า condition1 เป็นจริง ทำ do_something()\n",
+        "elif condition2:\n",
+        "        do_another_thing() ## ถ้า condition2 ไม่เป็นจริงแต่ condition2 เป็นจริง ทำ do_another_thing()\n",
+        "else: \n",
+        "    do_the_last_thing() ## ถ้าไม่มี condition ไหนเป็นจริงเลย ทำ do_the_last_thing()\n",
+        "```"
       ],
       "metadata": {
-        "id": "5iqbu_w_haZZ"
+        "id": "QlurO1g9h7jx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " for n in list_name :\n",
+        "     if len(n) > 22:\n",
+        "        print( f' {n} ได้เกรด A' )\n",
+        "else: \n",
+        "        print( f' {n} ได้เกรด F' )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FYPzthV-iayr",
+        "outputId": "58c63f77-49a4-4c60-b96b-1015b2f3b65c"
       },
-      "execution_count": null,
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " นาง2 ได้เกรด F\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### operator ที่ใช้ตรวจสอบ condition\n",
+        "==, !=,  >=, <=, <, >, and, or"
+      ],
+      "metadata": {
+        "id": "gjVffNg2kE-k"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a =10 == 20\n",
+        "print (a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HMuSDARJjv1-",
+        "outputId": "887aae66-afbd-4de9-bfd0-8867b3e8b165"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "b = 15 <= 20\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jnunD62gkgRp",
+        "outputId": "6815fc12-e090-4162-bff3-76214dafd88d"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if a :\n",
+        "    print('x') #ไม่ print"
+      ],
+      "metadata": {
+        "id": "pBww9BXeku7t"
+      },
+      "execution_count": 36,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if True:\n",
+        "    print('x')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W1HhnN6elD78",
+        "outputId": "ae83c199-a09c-4e74-efd4-cf6ca17cbc3f"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if a and b:\n",
+        "    print('x')"
+      ],
+      "metadata": {
+        "id": "uRsOf-5jlIG7"
+      },
+      "execution_count": 38,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if a or b:\n",
+        "    print('x')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ne2zBE7dlUT6",
+        "outputId": "00a0beb6-e42b-43af-e98d-eb423e962389"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# HW4\n",
+        "\n",
+        "เขียน function ตัดเกรด โดยที่่ input เป็นคะแนน(0-100) , output เป็นเกรด (F-A)\n",
+        "หรือ 'ไม่สามารถตัดเกรดได้'\n",
+        "\n",
+        "วนลูปตัดเกรด input = [1,50,65,90,101,-5,49,'ก',80]\n",
+        "\n",
+        "กำหนด\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 0 แต่น้อยกว่า 50 จะได้เกรด F\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 50 แต่น้อยกว่า 55 จะได้เกรด D\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 55 แต่น้อยกว่า 60 จะได้เกรด D+\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 60 แต่น้อยกว่า 65 จะได้เกรด C\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 65 แต่น้อยกว่า 70 จะได้เกรด C+\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 70 แต่น้อยกว่า 75 จะได้เกรด B\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 75 แต่น้อยกว่า 80 จะได้เกรด B+\n",
+        "* ถ้าคะแนนอยู่ระหว่างมากกว่าหรือเท่ากับ 80 จะได้เกรด A\n",
+        "*ถ้าคะแนนไม่อยู่ในช่วง 0-100 ให้ return 'ไม่สามารถตัดเกรดได้'"
+      ],
+      "metadata": {
+        "id": "7nYRktZZlqv8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "input = [1,50,65,90,101,-5,49,'ก',80]"
+      ],
+      "metadata": {
+        "id": "gAyXt7kPghlH"
+      },
+      "execution_count": 40,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(input)\n",
+        "for i in input:\n",
+        "    if type(i) == type(\"\"):\n",
+        "            print (f'คะแนนเท่ากับ {i} ไม่สามารถตัดเกรดได้')\n",
+        "    else:\n",
+        "        if i >= 101:\n",
+        "            print (f'คะแนนเท่ากับ {i} ไม่สามารถตัดเกรดได้')\n",
+        "        elif i >= 80:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  A')\n",
+        "        elif i >= 75:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  B+')\n",
+        "        elif i >= 70:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  B')\n",
+        "        elif i >= 65:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  C+')\n",
+        "        elif  i >= 60:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  C')\n",
+        "        elif  i >= 55:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  D+')\n",
+        "        elif  i >= 50:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  D')\n",
+        "        elif  i >= 0:\n",
+        "            print (f'คะแนนเท่ากับ {i} ได้เกรด  F')\n",
+        "        else:\n",
+        "            print (f'คะแนนเท่ากับ {i} ไม่สามารถตัดเกรดได้')\n",
+        "    print ('................................................................')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rx5F71g_hT6p",
+        "outputId": "37273a6d-51d3-418f-fdb1-f8ccd49c1254"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 50, 65, 90, 101, -5, 49, 'ก', 80]\n",
+            "คะแนนเท่ากับ 1 ได้เกรด  F\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 50 ได้เกรด  D\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 65 ได้เกรด  C+\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 90 ได้เกรด  A\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 101 ไม่สามารถตัดเกรดได้\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ -5 ไม่สามารถตัดเกรดได้\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 49 ได้เกรด  F\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ ก ไม่สามารถตัดเกรดได้\n",
+            "................................................................\n",
+            "คะแนนเท่ากับ 80 ได้เกรด  A\n",
+            "................................................................\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "nnDapQMNh3kA"
+      },
+      "execution_count": 41,
       "outputs": []
     }
   ]
